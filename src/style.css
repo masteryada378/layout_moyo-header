@@ -2,19 +2,8 @@
   --blue-color: #00acdc;
 }
 
-body,
-h1,
-h2,
-h3,
-p,
-ul,
-li {
+body {
   margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
 }
 
 html {
@@ -68,6 +57,7 @@ html {
   color: #000;
   font-weight: 500;
   height: 60px;
+  text-decoration: none;
 }
 
 .nav-link:hover {
@@ -89,14 +79,3 @@ html {
   background-color: var(--blue-color);
   border-radius: 8px;
 }
-
-/* .active::after {
-  content: '';
-  position: absolute;
-  height: 4px;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  background-color: var(--blue-color);
-  border-radius: 8px;
-} */
